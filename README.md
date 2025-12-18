@@ -1,10 +1,10 @@
-# Tea Factory Management System
+Tea Factory Management System
 
 A comprehensive full-stack web application for managing tea factory operations, including employee management, inventory tracking, supplier coordination, customer orders, delivery logistics, and maintenance scheduling.
 
-## 🚀 Features
+Features
 
-### Core Modules
+Core Modules
 - **Employee Management** - Employee records, attendance tracking, leave management, salary processing
 - **Inventory Management** - Stock tracking, warehouse management, reorder alerts, purchase orders
 - **Supplier Portal** - Supplier registration, order management, communication system
@@ -14,7 +14,7 @@ A comprehensive full-stack web application for managing tea factory operations, 
 - **Department Management** - Department organization and administration
 - **Technician Management** - Technician records and assignments
 
-### Additional Features
+Additional Features
 - Role-based authentication (Admin, Employee, Supplier, Customer)
 - Real-time notifications
 - Interactive dashboards with charts and analytics
@@ -23,9 +23,9 @@ A comprehensive full-stack web application for managing tea factory operations, 
 - AI-powered chatbot assistance
 - Mobile-responsive design
 
-## 🛠️ Tech Stack
+Tech Stack
 
-### Frontend
+Frontend
 - **React** 19.1.1 - UI framework
 - **React Router DOM** - Navigation
 - **Material-UI (MUI)** - Component library
@@ -36,7 +36,7 @@ A comprehensive full-stack web application for managing tea factory operations, 
 - **jsPDF** - PDF generation
 - **React Toastify** - Notifications
 
-### Backend
+Backend
 - **Node.js** with **Express** 5.1.0
 - **MongoDB** with **Mongoose** 8.17.1
 - **JWT** - Authentication
@@ -47,21 +47,21 @@ A comprehensive full-stack web application for managing tea factory operations, 
 - **PDFKit** - PDF generation
 - **Node-cron** - Scheduled tasks
 
-## 📋 Prerequisites
+Prerequisites
 
 - Node.js (v14 or higher)
 - MongoDB (v4.4 or higher)
 - npm or yarn package manager
 
-## 🔧 Installation
+Installation
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/Apurva-Herath/Tea-Factory.git
 cd tea
 ```
 
-### 2. Backend Setup
+2. Backend Setup
 ```bash
 cd backend
 npm install
@@ -77,7 +77,7 @@ EMAIL_PASS=your_email_password
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-### 3. Frontend Setup
+3. Frontend Setup
 ```bash
 cd ../frontend
 npm install
@@ -87,8 +87,7 @@ Create a `.env` file in the frontend directory:
 ```env
 REACT_APP_API_URL=http://localhost:5000
 ```
-
-## 🚀 Running the Application
+Running the Application
 
 ### Start Backend Server
 ```bash
@@ -104,7 +103,7 @@ npm start
 ```
 The frontend will run on `http://localhost:3000`
 
-## 📊 Database Seeding
+Database Seeding
 
 To populate the database with initial data:
 
@@ -119,7 +118,7 @@ npm run seed              # Seed suppliers
 npm run seed:inventory    # Seed inventory
 ```
 
-## 📁 Project Structure
+ Project Structure
 
 ```
 tea/
@@ -146,14 +145,14 @@ tea/
 └── README.md
 ```
 
-## 🔐 User Roles
+User Roles
 
 - **Admin** - Full system access and management
 - **Employee** - Access to employee portal and assigned tasks
 - **Supplier** - Supplier portal for order management
 - **Customer** - Customer portal for placing orders and tracking
 
-## 📱 Key Functionalities
+Key Functionalities
 
 ### For Administrators
 - Manage employees, departments, and salaries
@@ -180,7 +179,7 @@ tea/
 - Participate in auctions
 - Track order status and deliveries
 
-## 🤝 Contributing
+Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -188,15 +187,15 @@ tea/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+License
 
 This project is licensed under the ISC License.
 
-## 👥 Authors
+##  Authors
 
 - Apurva Herath
 
-## 📧 Contact
+##  Contact
 
 For any queries or support, please contact the development team.
 
